@@ -1,0 +1,6 @@
+version: "3.8"
+
+services:
+  producer:
+    build: ./producer
+    env_file: ./producer/.env
